@@ -1,6 +1,6 @@
 # op-cards
 
-This template should help get you started developing with Vue 3 in Vite.
+A web app that shows one piece card game details, and card prices.
 
 ## Recommended IDE Setup
 
@@ -34,7 +34,7 @@ npm run build
 npm run lint
 ```
 
-### Depoyment guide
+### Depoyment guide (This deploy the app on github pages)
 
 ```sh
 npm run deploy
