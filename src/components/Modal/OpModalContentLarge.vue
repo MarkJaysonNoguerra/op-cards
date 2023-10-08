@@ -13,7 +13,7 @@
                 <img class="rounded-t-lg" :src="`data/assets/${card.id}.png`" :alt="card.cardName" />
             </div>
             <div class="min-w-[30rem] max-w-[30rem] h-full my-auto mx-4">
-                <ul>
+                <ul class="w-full">
                     <div class="flex border-b-2 border-gray">
                         <li class="w-1/2 text-l font-medium my-6">
                             <b class="text-xl">Cost : </b>

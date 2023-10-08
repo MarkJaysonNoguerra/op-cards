@@ -13,8 +13,8 @@
                 <img class="rounded-t-lg max-w-[100%] max-h-[100%]" :src="`data/assets//${card.id}.png`"
                     :alt="card.cardName" />
             </div>
-            <div v-if="toggleDetails" class="flex items-center justify-center p-6">
-                <ul>
+            <div v-if="toggleDetails" class="flex items-center justify-center p-2">
+                <ul class="w-full">
                     <div class="flex border-b border-gray">
                         <li class="text-small w-1/2 my-3">
                             <b>Cost : </b>
@@ -38,27 +38,27 @@
 
                     </div>
 
-                    <li class="border-b border-gray my-6">
+                    <li class="border-b border-gray my-3">
                         <b>Color : </b>
                         <span> {{ card.color }}</span>
 
                     </li>
-                    <li class="border-b border-gray my-6">
+                    <li class="border-b border-gray my-3">
                         <b>Type : </b>
                         <span> {{ card.type }}</span>
 
                     </li>
-                    <li class="border-b border-gray my-6">
+                    <li class="border-b border-gray my-3">
                         <b>Effect : </b><br />
                         <span> {{ card.effect }}</span>
 
                     </li>
-                    <li v-if="card.trigger" class="border-b border-gray my-6">
+                    <li v-if="card.trigger" class="border-b border-gray my-3">
                         <p class="font-bold">Trigger </p>
                         <span> {{ card.trigger }}</span>
 
                     </li>
-                    <li class="border-b border-gray my-6">
+                    <li class="border-b border-gray my-3">
                         <p class="font-bold">Card Sets(s) </p>
                         <span> {{ card.cardSet }}</span>
 
