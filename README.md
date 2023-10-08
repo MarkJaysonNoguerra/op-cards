@@ -33,3 +33,10 @@ npm run build
 ```sh
 npm run lint
 ```
+
+### Depoyment guide
+
+```sh
+npm run predeploy
+npm run deploy
+```
