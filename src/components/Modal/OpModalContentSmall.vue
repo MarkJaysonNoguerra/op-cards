@@ -1,5 +1,5 @@
 <template>
-    <div class="h-[60vh] w-[70vw]">
+    <div class="h-[60vh] w-[70vw] mb-[5rem]">
         <div class="flex flex-col items-center justify-center w-full h-30 bg-black rounded-lg p-3">
             <h3 class=" text-white">
                 {{ card.cardSerial }} | {{ card.rarity }} | {{ card.cardType }}
